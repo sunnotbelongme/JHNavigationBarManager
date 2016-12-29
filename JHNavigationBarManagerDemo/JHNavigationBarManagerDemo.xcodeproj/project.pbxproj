@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3729FE1E11FBB900E2DC28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3729FD1E11FBB900E2DC28 /* main.m */; };
+		5A372A011E11FBB900E2DC28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A372A001E11FBB900E2DC28 /* AppDelegate.m */; };
+		5A372A041E11FBB900E2DC28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A372A031E11FBB900E2DC28 /* ViewController.m */; };
+		5A372A071E11FBB900E2DC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A372A051E11FBB900E2DC28 /* Main.storyboard */; };
+		5A372A091E11FBB900E2DC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A372A081E11FBB900E2DC28 /* Assets.xcassets */; };
+		5A372A0C1E11FBB900E2DC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A372A0A1E11FBB900E2DC28 /* LaunchScreen.storyboard */; };
+		5A372A171E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A372A161E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.m */; };
+		5A372A221E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A372A211E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.m */; };
+		5A372A321E11FC1100E2DC28 /* JHNavigationBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A372A311E11FC1100E2DC28 /* JHNavigationBarManager.m */; };
+		5A372A771E12108300E2DC28 /* ChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A372A761E12108300E2DC28 /* ChooseViewController.m */; };
+		5A372A7B1E12118B00E2DC28 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A372A7A1E12118B00E2DC28 /* GradientViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A372A131E11FBB900E2DC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3729F11E11FBB900E2DC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3729F81E11FBB900E2DC28;
+			remoteInfo = JHNavigationBarManagerDemo;
+		};
+		5A372A1E1E11FBBA00E2DC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3729F11E11FBB900E2DC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3729F81E11FBB900E2DC28;
+			remoteInfo = JHNavigationBarManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A3729F91E11FBB900E2DC28 /* JHNavigationBarManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHNavigationBarManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3729FD1E11FBB900E2DC28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A3729FF1E11FBB900E2DC28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A372A001E11FBB900E2DC28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A372A021E11FBB900E2DC28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A372A031E11FBB900E2DC28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A372A061E11FBB900E2DC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A372A081E11FBB900E2DC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A372A0B1E11FBB900E2DC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A372A0D1E11FBB900E2DC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A372A121E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHNavigationBarManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A372A161E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHNavigationBarManagerDemoTests.m; sourceTree = "<group>"; };
+		5A372A181E11FBB900E2DC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A372A1D1E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHNavigationBarManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A372A211E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHNavigationBarManagerDemoUITests.m; sourceTree = "<group>"; };
+		5A372A231E11FBBA00E2DC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A372A301E11FC1100E2DC28 /* JHNavigationBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNavigationBarManager.h; sourceTree = "<group>"; };
+		5A372A311E11FC1100E2DC28 /* JHNavigationBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNavigationBarManager.m; sourceTree = "<group>"; };
+		5A372A751E12108300E2DC28 /* ChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseViewController.h; sourceTree = "<group>"; };
+		5A372A761E12108300E2DC28 /* ChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseViewController.m; sourceTree = "<group>"; };
+		5A372A791E12118B00E2DC28 /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		5A372A7A1E12118B00E2DC28 /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A3729F61E11FBB900E2DC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A372A0F1E11FBB900E2DC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A372A1A1E11FBBA00E2DC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3729F01E11FBB900E2DC28 = {
+			isa = PBXGroup;
+			children = (
+				5A372A2F1E11FBFF00E2DC28 /* JHNavigationBarManager */,
+				5A3729FB1E11FBB900E2DC28 /* JHNavigationBarManagerDemo */,
+				5A372A151E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests */,
+				5A372A201E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests */,
+				5A3729FA1E11FBB900E2DC28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A3729FA1E11FBB900E2DC28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A3729F91E11FBB900E2DC28 /* JHNavigationBarManagerDemo.app */,
+				5A372A121E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.xctest */,
+				5A372A1D1E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A3729FB1E11FBB900E2DC28 /* JHNavigationBarManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A372A781E12118000E2DC28 /* GradientViewController */,
+				5A372A741E12106C00E2DC28 /* ChooseViewController */,
+				5A3729FF1E11FBB900E2DC28 /* AppDelegate.h */,
+				5A372A001E11FBB900E2DC28 /* AppDelegate.m */,
+				5A372A021E11FBB900E2DC28 /* ViewController.h */,
+				5A372A031E11FBB900E2DC28 /* ViewController.m */,
+				5A372A051E11FBB900E2DC28 /* Main.storyboard */,
+				5A372A081E11FBB900E2DC28 /* Assets.xcassets */,
+				5A372A0A1E11FBB900E2DC28 /* LaunchScreen.storyboard */,
+				5A372A0D1E11FBB900E2DC28 /* Info.plist */,
+				5A3729FC1E11FBB900E2DC28 /* Supporting Files */,
+			);
+			path = JHNavigationBarManagerDemo;
+			sourceTree = "<group>";
+		};
+		5A3729FC1E11FBB900E2DC28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A3729FD1E11FBB900E2DC28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A372A151E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A372A161E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.m */,
+				5A372A181E11FBB900E2DC28 /* Info.plist */,
+			);
+			path = JHNavigationBarManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		5A372A201E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A372A211E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.m */,
+				5A372A231E11FBBA00E2DC28 /* Info.plist */,
+			);
+			path = JHNavigationBarManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		5A372A2F1E11FBFF00E2DC28 /* JHNavigationBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				5A372A301E11FC1100E2DC28 /* JHNavigationBarManager.h */,
+				5A372A311E11FC1100E2DC28 /* JHNavigationBarManager.m */,
+			);
+			path = JHNavigationBarManager;
+			sourceTree = "<group>";
+		};
+		5A372A741E12106C00E2DC28 /* ChooseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A372A751E12108300E2DC28 /* ChooseViewController.h */,
+				5A372A761E12108300E2DC28 /* ChooseViewController.m */,
+			);
+			path = ChooseViewController;
+			sourceTree = "<group>";
+		};
+		5A372A781E12118000E2DC28 /* GradientViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A372A791E12118B00E2DC28 /* GradientViewController.h */,
+				5A372A7A1E12118B00E2DC28 /* GradientViewController.m */,
+			);
+			path = GradientViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A3729F81E11FBB900E2DC28 /* JHNavigationBarManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A372A261E11FBBA00E2DC28 /* Build configuration list for PBXNativeTarget "JHNavigationBarManagerDemo" */;
+			buildPhases = (
+				5A3729F51E11FBB900E2DC28 /* Sources */,
+				5A3729F61E11FBB900E2DC28 /* Frameworks */,
+				5A3729F71E11FBB900E2DC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHNavigationBarManagerDemo;
+			productName = JHNavigationBarManagerDemo;
+			productReference = 5A3729F91E11FBB900E2DC28 /* JHNavigationBarManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A372A111E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A372A291E11FBBA00E2DC28 /* Build configuration list for PBXNativeTarget "JHNavigationBarManagerDemoTests" */;
+			buildPhases = (
+				5A372A0E1E11FBB900E2DC28 /* Sources */,
+				5A372A0F1E11FBB900E2DC28 /* Frameworks */,
+				5A372A101E11FBB900E2DC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A372A141E11FBB900E2DC28 /* PBXTargetDependency */,
+			);
+			name = JHNavigationBarManagerDemoTests;
+			productName = JHNavigationBarManagerDemoTests;
+			productReference = 5A372A121E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A372A1C1E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A372A2C1E11FBBA00E2DC28 /* Build configuration list for PBXNativeTarget "JHNavigationBarManagerDemoUITests" */;
+			buildPhases = (
+				5A372A191E11FBBA00E2DC28 /* Sources */,
+				5A372A1A1E11FBBA00E2DC28 /* Frameworks */,
+				5A372A1B1E11FBBA00E2DC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A372A1F1E11FBBA00E2DC28 /* PBXTargetDependency */,
+			);
+			name = JHNavigationBarManagerDemoUITests;
+			productName = JHNavigationBarManagerDemoUITests;
+			productReference = 5A372A1D1E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A3729F11E11FBB900E2DC28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "499080255@qq.com";
+				TargetAttributes = {
+					5A3729F81E11FBB900E2DC28 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					5A372A111E11FBB900E2DC28 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A3729F81E11FBB900E2DC28;
+					};
+					5A372A1C1E11FBBA00E2DC28 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A3729F81E11FBB900E2DC28;
+					};
+				};
+			};
+			buildConfigurationList = 5A3729F41E11FBB900E2DC28 /* Build configuration list for PBXProject "JHNavigationBarManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A3729F01E11FBB900E2DC28;
+			productRefGroup = 5A3729FA1E11FBB900E2DC28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A3729F81E11FBB900E2DC28 /* JHNavigationBarManagerDemo */,
+				5A372A111E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests */,
+				5A372A1C1E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A3729F71E11FBB900E2DC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A372A0C1E11FBB900E2DC28 /* LaunchScreen.storyboard in Resources */,
+				5A372A091E11FBB900E2DC28 /* Assets.xcassets in Resources */,
+				5A372A071E11FBB900E2DC28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A372A101E11FBB900E2DC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A372A1B1E11FBBA00E2DC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A3729F51E11FBB900E2DC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A372A7B1E12118B00E2DC28 /* GradientViewController.m in Sources */,
+				5A372A771E12108300E2DC28 /* ChooseViewController.m in Sources */,
+				5A372A041E11FBB900E2DC28 /* ViewController.m in Sources */,
+				5A372A321E11FC1100E2DC28 /* JHNavigationBarManager.m in Sources */,
+				5A372A011E11FBB900E2DC28 /* AppDelegate.m in Sources */,
+				5A3729FE1E11FBB900E2DC28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A372A0E1E11FBB900E2DC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A372A171E11FBB900E2DC28 /* JHNavigationBarManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A372A191E11FBBA00E2DC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A372A221E11FBBA00E2DC28 /* JHNavigationBarManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A372A141E11FBB900E2DC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3729F81E11FBB900E2DC28 /* JHNavigationBarManagerDemo */;
+			targetProxy = 5A372A131E11FBB900E2DC28 /* PBXContainerItemProxy */;
+		};
+		5A372A1F1E11FBBA00E2DC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3729F81E11FBB900E2DC28 /* JHNavigationBarManagerDemo */;
+			targetProxy = 5A372A1E1E11FBBA00E2DC28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A372A051E11FBB900E2DC28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A372A061E11FBB900E2DC28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A372A0A1E11FBB900E2DC28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A372A0B1E11FBB900E2DC28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A372A241E11FBBA00E2DC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A372A251E11FBBA00E2DC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A372A271E11FBBA00E2DC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHNavigationBarManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiqigroup.JHNavigationBarManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A372A281E11FBBA00E2DC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHNavigationBarManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiqigroup.JHNavigationBarManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A372A2A1E11FBBA00E2DC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHNavigationBarManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiqigroup.JHNavigationBarManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHNavigationBarManagerDemo.app/JHNavigationBarManagerDemo";
+			};
+			name = Debug;
+		};
+		5A372A2B1E11FBBA00E2DC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHNavigationBarManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiqigroup.JHNavigationBarManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHNavigationBarManagerDemo.app/JHNavigationBarManagerDemo";
+			};
+			name = Release;
+		};
+		5A372A2D1E11FBBA00E2DC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JHNavigationBarManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiqigroup.JHNavigationBarManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHNavigationBarManagerDemo;
+			};
+			name = Debug;
+		};
+		5A372A2E1E11FBBA00E2DC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JHNavigationBarManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiqigroup.JHNavigationBarManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHNavigationBarManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A3729F41E11FBB900E2DC28 /* Build configuration list for PBXProject "JHNavigationBarManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A372A241E11FBBA00E2DC28 /* Debug */,
+				5A372A251E11FBBA00E2DC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A372A261E11FBBA00E2DC28 /* Build configuration list for PBXNativeTarget "JHNavigationBarManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A372A271E11FBBA00E2DC28 /* Debug */,
+				5A372A281E11FBBA00E2DC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A372A291E11FBBA00E2DC28 /* Build configuration list for PBXNativeTarget "JHNavigationBarManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A372A2A1E11FBBA00E2DC28 /* Debug */,
+				5A372A2B1E11FBBA00E2DC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A372A2C1E11FBBA00E2DC28 /* Build configuration list for PBXNativeTarget "JHNavigationBarManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A372A2D1E11FBBA00E2DC28 /* Debug */,
+				5A372A2E1E11FBBA00E2DC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A3729F11E11FBB900E2DC28 /* Project object */;
+}
